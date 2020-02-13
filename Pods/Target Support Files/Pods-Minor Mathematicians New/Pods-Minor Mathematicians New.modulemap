@@ -1,0 +1,6 @@
+framework module Pods_Minor_Mathematicians_New {
+  umbrella header "Pods-Minor Mathematicians New-umbrella.h"
+
+  export *
+  module * { export * }
+}
