@@ -300,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SYD-cb-SNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2169" y="431"/>
+            <point key="canvasLocation" x="1943" y="1736"/>
         </scene>
         <!--Five AdminVC-->
         <scene sceneID="Iqd-nd-QoS">
@@ -535,103 +535,11 @@
                         <outlet property="pickerView" destination="uvL-4X-zlv" id="vr4-Oh-pDp"/>
                         <segue destination="DSr-Jk-Gwz" kind="show" identifier="StudentReturn" animates="NO" id="Cac-5w-ruJ"/>
                         <segue destination="PLi-E7-RDP" kind="show" identifier="fiveAStudents" animates="NO" id="vgz-qU-gPJ"/>
-                        <segue destination="1k9-RB-IYX" kind="show" identifier="fourStudents" animates="NO" id="LeB-S9-PE6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="637.60000000000002" y="-189.16256157635468"/>
-        </scene>
-        <!--Four StudentsVC-->
-        <scene sceneID="L02-YH-En1">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="1k9-RB-IYX" customClass="fourStudentsVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dHZ-Xw-Fhp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, 4th Grade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zk-t6-vHf">
-                                <rect key="frame" x="47.333333333333343" y="118" width="280.66666666666663" height="41"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxX-un-gJT" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
-                                <rect key="frame" x="107" y="198" width="161" height="48"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" link="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="aTo-A1-8jJ"/>
-                                    <constraint firstAttribute="width" constant="161" id="mXB-hX-ojB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Exercises"/>
-                                <connections>
-                                    <action selector="onExercisesBtnPressed:" destination="PLi-E7-RDP" eventType="touchUpInside" id="RgO-3U-w3r"/>
-                                    <action selector="onExercisesBtnPressed:" destination="1k9-RB-IYX" eventType="touchUpInside" id="gvR-lv-nn2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-EV-Yfb">
-                                <rect key="frame" x="26" y="53" width="60" height="60"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="40J-jX-wrm"/>
-                                    <constraint firstAttribute="height" constant="60" id="IeL-RG-W1V" userLabel="height = 50"/>
-                                </constraints>
-                                <state key="normal" image="backBtnDark">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
-                                </state>
-                                <connections>
-                                    <action selector="onReturnPressed:" destination="PLi-E7-RDP" eventType="touchUpInside" id="KXU-W7-c5e"/>
-                                    <action selector="onReturnPressed:" destination="1k9-RB-IYX" eventType="touchUpInside" id="gYy-RT-su4"/>
-                                </connections>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Rkb-Sf-ENZ">
-                                <rect key="frame" x="40" y="305" width="295" height="455"/>
-                                <color key="backgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="455" id="aPB-jU-BAj"/>
-                                </constraints>
-                                <color key="sectionIndexBackgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Board" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aJ-Gd-Q2e">
-                                <rect key="frame" x="108" y="266" width="159" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="159" id="0jG-aQ-T0V"/>
-                                    <constraint firstAttribute="height" constant="31" id="Lk7-Bd-g7j"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="2aJ-Gd-Q2e" firstAttribute="top" secondItem="oxX-un-gJT" secondAttribute="bottom" constant="20" id="0p5-mD-8si"/>
-                            <constraint firstItem="lsO-EV-Yfb" firstAttribute="leading" secondItem="WSH-Di-a0C" secondAttribute="leading" constant="26" id="0t3-gQ-NZX"/>
-                            <constraint firstItem="Rkb-Sf-ENZ" firstAttribute="centerX" secondItem="8zk-t6-vHf" secondAttribute="centerX" id="7YF-XT-d5d"/>
-                            <constraint firstItem="8zk-t6-vHf" firstAttribute="top" secondItem="lsO-EV-Yfb" secondAttribute="bottom" constant="5" id="A3D-wO-W6g"/>
-                            <constraint firstItem="Rkb-Sf-ENZ" firstAttribute="centerX" secondItem="2aJ-Gd-Q2e" secondAttribute="centerX" id="LUX-8r-2d8"/>
-                            <constraint firstItem="Rkb-Sf-ENZ" firstAttribute="top" secondItem="2aJ-Gd-Q2e" secondAttribute="bottom" constant="8" symbolic="YES" id="Lko-YV-qC6"/>
-                            <constraint firstItem="Rkb-Sf-ENZ" firstAttribute="centerX" secondItem="oxX-un-gJT" secondAttribute="centerX" id="NEP-fi-E7Z"/>
-                            <constraint firstItem="Rkb-Sf-ENZ" firstAttribute="centerX" secondItem="dHZ-Xw-Fhp" secondAttribute="centerX" id="o5i-OW-ZW4"/>
-                            <constraint firstItem="WSH-Di-a0C" firstAttribute="bottom" secondItem="Rkb-Sf-ENZ" secondAttribute="bottom" constant="18" id="pZ8-8C-7cd"/>
-                            <constraint firstItem="oxX-un-gJT" firstAttribute="top" secondItem="8zk-t6-vHf" secondAttribute="bottom" constant="39" id="sF9-zc-QZ7"/>
-                            <constraint firstItem="Rkb-Sf-ENZ" firstAttribute="leading" secondItem="WSH-Di-a0C" secondAttribute="leading" constant="40" id="zr7-MD-q5E"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="WSH-Di-a0C"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="f4q-5A-2UA"/>
-                    <connections>
-                        <outlet property="feedTableView" destination="Rkb-Sf-ENZ" id="6up-4V-ycX"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="fourStudentReturn" animates="NO" id="Jtw-ao-ZCx"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9o4-tW-go3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1615" y="-999"/>
         </scene>
     </scenes>
     <resources>
@@ -639,6 +547,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="YJj-5H-jd7"/>
-        <segue reference="Cac-5w-ruJ"/>
+        <segue reference="ohw-fB-aQN"/>
     </inferredMetricsTieBreakers>
 </document>

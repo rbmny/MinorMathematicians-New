@@ -16,7 +16,6 @@
 		9C7A8B3423F6088C00BBD7D8 /* ClassSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2623F6088C00BBD7D8 /* ClassSelectVC.swift */; };
 		9C7A8B3523F6088C00BBD7D8 /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2723F6088C00BBD7D8 /* SelectionVC.swift */; };
 		9C7A8B3623F6088C00BBD7D8 /* fiveAdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2823F6088C00BBD7D8 /* fiveAdminVC.swift */; };
-		9C7A8B3723F6088C00BBD7D8 /* fourStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2923F6088C00BBD7D8 /* fourStudentsVC.swift */; };
 		9C7A8B3823F6088C00BBD7D8 /* TeacherLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2A23F6088C00BBD7D8 /* TeacherLoginVC.swift */; };
 		9C7A8B3923F6088C00BBD7D8 /* 5AStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2B23F6088C00BBD7D8 /* 5AStudentsVC.swift */; };
 		9C7A8B3A23F6088C00BBD7D8 /* TeacherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2C23F6088C00BBD7D8 /* TeacherVC.swift */; };
@@ -45,7 +44,6 @@
 		9C7A8B2623F6088C00BBD7D8 /* ClassSelectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSelectVC.swift; sourceTree = "<group>"; };
 		9C7A8B2723F6088C00BBD7D8 /* SelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
 		9C7A8B2823F6088C00BBD7D8 /* fiveAdminVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fiveAdminVC.swift; sourceTree = "<group>"; };
-		9C7A8B2923F6088C00BBD7D8 /* fourStudentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourStudentsVC.swift; sourceTree = "<group>"; };
 		9C7A8B2A23F6088C00BBD7D8 /* TeacherLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherLoginVC.swift; sourceTree = "<group>"; };
 		9C7A8B2B23F6088C00BBD7D8 /* 5AStudentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5AStudentsVC.swift; sourceTree = "<group>"; };
 		9C7A8B2C23F6088C00BBD7D8 /* TeacherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherVC.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				9C7A8B2623F6088C00BBD7D8 /* ClassSelectVC.swift */,
 				9C7A8B2723F6088C00BBD7D8 /* SelectionVC.swift */,
 				9C7A8B2823F6088C00BBD7D8 /* fiveAdminVC.swift */,
-				9C7A8B2923F6088C00BBD7D8 /* fourStudentsVC.swift */,
 				9C7A8B2A23F6088C00BBD7D8 /* TeacherLoginVC.swift */,
 				9C7A8B2B23F6088C00BBD7D8 /* 5AStudentsVC.swift */,
 				9C7A8B2C23F6088C00BBD7D8 /* TeacherVC.swift */,
@@ -267,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C7A8B3723F6088C00BBD7D8 /* fourStudentsVC.swift in Sources */,
 				9C7A8B4B23F60A2700BBD7D8 /* PostTableViewCell.swift in Sources */,
 				9C7A8B3523F6088C00BBD7D8 /* SelectionVC.swift in Sources */,
 				9C7A8B3923F6088C00BBD7D8 /* 5AStudentsVC.swift in Sources */,
