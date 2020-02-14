@@ -1,0 +1,85 @@
+{
+  "5" : {
+    "Admins" : {
+      "Code" : 5007
+    },
+    "Posts" : {
+      "-LzrQo7RaRbt7Qf8aSCI" : {
+        "text" : "Message",
+        "timestamp" : 1580404261742,
+        "url" : "noURL"
+      },
+      "-Lzrb6Kkwp7QKEZuJ-Q5" : {
+        "text" : "Teste ",
+        "timestamp" : 1580407223898,
+        "url" : "noURL"
+      },
+      "-M-zxZe4Wdk3QioSVjiq" : {
+        "text" : "Join",
+        "timestamp" : 1581621070665,
+        "url" : "noURL"
+      }
+    },
+    "Students" : {
+      "Bernardo Reis" : {
+        "First Name" : "Bernardo",
+        "Last Name" : "Reis"
+      },
+      "Bárbara Dauster" : {
+        "First Name" : "Bárbara",
+        "Last Name" : "Dauster"
+      },
+      "Eva Pikelvika" : {
+        "First Name" : "Eva",
+        "Last Name" : "Pikelvika"
+      },
+      "Gabi Sarmento" : {
+        "First Name" : "Gabi",
+        "Last Name" : "Sarmento"
+      },
+      "Guilherme Carvalho" : {
+        "First Name" : "Guilherme",
+        "Last Name" : "Carvalho"
+      },
+      "Guilherme Greve" : {
+        "First Name" : "Guilherme",
+        "Last Name" : "Greve"
+      },
+      "Leticia Borges" : {
+        "First Name" : "Leticia",
+        "Last Name" : "Borges"
+      },
+      "Mariana Ferreira" : {
+        "First Name" : "Mariana",
+        "Last Name" : "Ferreira"
+      },
+      "Paula Greve" : {
+        "First Name" : "Paula",
+        "Last Name" : "Greve"
+      },
+      "Sofia Alves" : {
+        "First Name" : "Sofia",
+        "Last Name" : "Alves"
+      }
+    },
+    "Teachers" : {
+      "Code" : 5020
+    }
+  },
+  "4" : {
+    "Admins" : {
+      "Code" : 4007
+    },
+    "Posts" : {
+      "043i50235" : {
+        "text" : "gfdkjg",
+        "timestamp" : 458593850,
+        "url" : "noURL"
+      }
+    },
+    "Teachers" : {
+      "Code" : 4020
+    }
+  }
+}
+
