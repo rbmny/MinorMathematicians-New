@@ -10,7 +10,7 @@ import UIKit
 
 class ClassSelectVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
-    private let dataSource = ["5", "4", "3", "2", "1"]
+    private let dataSource = ["5", "4", "3"]
     
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var backBtn: UIButton!
@@ -37,11 +37,11 @@ class ClassSelectVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         selectedGrade = dataSource[row]
     }
     
-//    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
-//
-//        let attString = NSAttributedString(string: dataSource[row], attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
-//        return attString
-//    }
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+
+        let attString = NSAttributedString(string: dataSource[row], attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        return attString
+    }
 
     
     override func viewDidLoad() {

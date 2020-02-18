@@ -30,26 +30,28 @@ class TeacherLoginVC: UIViewController, UITextFieldDelegate {
     var txt2Int: Int = 0
     var txt3Int: Int = 0
     var txt4Int: Int = 0
-    var selectedLevel: String?
+    var gradeSelected: String = ""
+
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        selectedLevel = txtOTP1.text
 
 
         
-        ref.child(selectedLevel ?? "5").child("Teachers").child("Code").observe( .value, with: { (snapshot) in
-            let fivedataCode = snapshot.value as? Int
-            if let fiveactualCode = fivedataCode {
+        ref.child("Teachers").child("Code").observe( .value, with: { (snapshot) in
+            let fivedataCode = snapshot.value as? String
+            let convertedCode = Int(fivedataCode!)
+            if let fiveactualCode = convertedCode {
                 self.teacherCode = fiveactualCode
             }
          })
         
-        ref.child(selectedLevel ?? "5").child("Admins").child("Code").observe( .value, with: { (snapshot) in
-            let adminDataCode = snapshot.value as? Int
-            if let adminActualCode = adminDataCode {
+        ref.child("Admins").child("Code").observe( .value, with: { (snapshot) in
+            let adminDataCode = snapshot.value as? String
+            let convertedCode = Int(adminDataCode!)
+            if let adminActualCode = convertedCode {
                 self.adminCode = adminActualCode
             }
          })
@@ -69,9 +71,15 @@ class TeacherLoginVC: UIViewController, UITextFieldDelegate {
         
         
     } //End of viewDidLoad
-    
 
 
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as? fiveAdminVC
+        let vct = segue.destination as? TeacherVC
+        vc?.gradeSelected = self.gradeSelected
+        vct?.gradeSelected = self.gradeSelected
+    }
     
     @objc func runCheck() {
 
@@ -80,7 +88,9 @@ class TeacherLoginVC: UIViewController, UITextFieldDelegate {
         txt3Int = Int(txtOTP3.text!) ?? 0
         txt4Int = Int(txtOTP4.text!) ?? 0
         
-        inputedCode = ((txt1Int*1000)+(txt2Int*100)+(txt3Int*10)+txt4Int)
+        
+        inputedCode = ((txt2Int*100)+(txt3Int*10)+txt4Int)
+        self.gradeSelected = txtOTP1.text!
         
         if inputedCode == teacherCode {
             performSegue(withIdentifier: "TeacherConfirmed", sender: nil)
@@ -91,15 +101,8 @@ class TeacherLoginVC: UIViewController, UITextFieldDelegate {
                }
         
     }
-    
-    func level() -> String {
-        var grade = "5"
-        if selectedLevel == nil {
-        grade = self.selectedLevel!
-        return grade
-        }
-        return grade
-    }
+
+
 
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
            if ((textField.text?.count)! < 1 ) && (string.count > 0) {
@@ -145,11 +148,7 @@ class TeacherLoginVC: UIViewController, UITextFieldDelegate {
            return true
        }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as?  fiveAdminVC
-        vc?.selectedGrade = level()
-        
-    }
+ 
     
         @objc func teacherReturn(){
             self.performSegue(withIdentifier: "TeacherReturn", sender: nil)

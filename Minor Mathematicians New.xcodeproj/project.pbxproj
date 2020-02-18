@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2D55F923FB65DC000F20BD /* roundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D55F523FB65DC000F20BD /* roundBtn.swift */; };
+		9C2D55FA23FB65DC000F20BD /* roundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D55F623FB65DC000F20BD /* roundTextField.swift */; };
+		9C2D55FB23FB65DC000F20BD /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D55F723FB65DC000F20BD /* PostTableViewCell.swift */; };
+		9C2D55FC23FB65DC000F20BD /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D55F823FB65DC000F20BD /* PostTableViewCell.xib */; };
+		9C2D55FF23FB65EF000F20BD /* fiveAPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D55FE23FB65EF000F20BD /* fiveAPosts.swift */; };
+		9C2D562223FC3256000F20BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D562123FC3256000F20BD /* LaunchScreen.storyboard */; };
+		9C2D563023FCA757000F20BD /* ClassSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562423FCA756000F20BD /* ClassSelectVC.swift */; };
+		9C2D563123FCA757000F20BD /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562523FCA756000F20BD /* SelectionVC.swift */; };
+		9C2D563223FCA757000F20BD /* fiveAdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562623FCA756000F20BD /* fiveAdminVC.swift */; };
+		9C2D563323FCA757000F20BD /* fourStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562723FCA756000F20BD /* fourStudentsVC.swift */; };
+		9C2D563423FCA757000F20BD /* TeacherLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562823FCA756000F20BD /* TeacherLoginVC.swift */; };
+		9C2D563523FCA757000F20BD /* 5AStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562923FCA756000F20BD /* 5AStudentsVC.swift */; };
+		9C2D563623FCA757000F20BD /* TeacherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562A23FCA756000F20BD /* TeacherVC.swift */; };
+		9C2D563923FCA757000F20BD /* dateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D562E23FCA757000F20BD /* dateExtension.swift */; };
+		9C2D563A23FCA757000F20BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D562F23FCA757000F20BD /* Assets.xcassets */; };
 		9C7A8B0923F6054D00BBD7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B0823F6054D00BBD7D8 /* AppDelegate.swift */; };
 		9C7A8B0B23F6054D00BBD7D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B0A23F6054D00BBD7D8 /* SceneDelegate.swift */; };
-		9C7A8B1523F6054F00BBD7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A8B1323F6054F00BBD7D8 /* LaunchScreen.storyboard */; };
 		9C7A8B1D23F6071D00BBD7D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A8B1C23F6071D00BBD7D8 /* GoogleService-Info.plist */; };
-		9C7A8B3023F6088C00BBD7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A8B1E23F6088C00BBD7D8 /* Assets.xcassets */; };
-		9C7A8B3123F6088C00BBD7D8 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A8B1F23F6088C00BBD7D8 /* AppIcon.png */; };
-		9C7A8B3423F6088C00BBD7D8 /* ClassSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2623F6088C00BBD7D8 /* ClassSelectVC.swift */; };
-		9C7A8B3523F6088C00BBD7D8 /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2723F6088C00BBD7D8 /* SelectionVC.swift */; };
-		9C7A8B3623F6088C00BBD7D8 /* fiveAdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2823F6088C00BBD7D8 /* fiveAdminVC.swift */; };
-		9C7A8B3823F6088C00BBD7D8 /* TeacherLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2A23F6088C00BBD7D8 /* TeacherLoginVC.swift */; };
-		9C7A8B3923F6088C00BBD7D8 /* 5AStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2B23F6088C00BBD7D8 /* 5AStudentsVC.swift */; };
-		9C7A8B3A23F6088C00BBD7D8 /* TeacherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2C23F6088C00BBD7D8 /* TeacherVC.swift */; };
-		9C7A8B3C23F6088C00BBD7D8 /* dateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B2F23F6088C00BBD7D8 /* dateExtension.swift */; };
 		9C7A8B4323F609CF00BBD7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A8B4223F609CF00BBD7D8 /* Main.storyboard */; };
-		9C7A8B4923F60A2700BBD7D8 /* roundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B4523F60A2700BBD7D8 /* roundBtn.swift */; };
-		9C7A8B4A23F60A2700BBD7D8 /* roundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B4623F60A2700BBD7D8 /* roundTextField.swift */; };
-		9C7A8B4B23F60A2700BBD7D8 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B4723F60A2700BBD7D8 /* PostTableViewCell.swift */; };
-		9C7A8B4C23F60A2700BBD7D8 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A8B4823F60A2700BBD7D8 /* PostTableViewCell.xib */; };
-		9C7A8B4F23F60A4200BBD7D8 /* fiveAPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A8B4E23F60A4200BBD7D8 /* fiveAPosts.swift */; };
 		B6A94A93528D7B4928AF1006 /* libPods-Minor Mathematicians New.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1BCC141F6C58083DEB4DBC /* libPods-Minor Mathematicians New.a */; };
 /* End PBXBuildFile section */
 
@@ -33,27 +33,27 @@
 		0362AE2AE9801720E0F61A6B /* Pods-Minor Mathematicians New.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minor Mathematicians New.debug.xcconfig"; path = "Target Support Files/Pods-Minor Mathematicians New/Pods-Minor Mathematicians New.debug.xcconfig"; sourceTree = "<group>"; };
 		0546880090C1405EDD171C28 /* Pods-Minor Mathematicians New.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minor Mathematicians New.release.xcconfig"; path = "Target Support Files/Pods-Minor Mathematicians New/Pods-Minor Mathematicians New.release.xcconfig"; sourceTree = "<group>"; };
 		5A1BCC141F6C58083DEB4DBC /* libPods-Minor Mathematicians New.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minor Mathematicians New.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C7A8B0523F6054C00BBD7D8 /* Minor Mathematicians New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minor Mathematicians New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2D55F523FB65DC000F20BD /* roundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundBtn.swift; sourceTree = "<group>"; };
+		9C2D55F623FB65DC000F20BD /* roundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundTextField.swift; sourceTree = "<group>"; };
+		9C2D55F723FB65DC000F20BD /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		9C2D55F823FB65DC000F20BD /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		9C2D55FE23FB65EF000F20BD /* fiveAPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fiveAPosts.swift; sourceTree = "<group>"; };
+		9C2D562123FC3256000F20BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C2D562423FCA756000F20BD /* ClassSelectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSelectVC.swift; sourceTree = "<group>"; };
+		9C2D562523FCA756000F20BD /* SelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
+		9C2D562623FCA756000F20BD /* fiveAdminVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fiveAdminVC.swift; sourceTree = "<group>"; };
+		9C2D562723FCA756000F20BD /* fourStudentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourStudentsVC.swift; sourceTree = "<group>"; };
+		9C2D562823FCA756000F20BD /* TeacherLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherLoginVC.swift; sourceTree = "<group>"; };
+		9C2D562923FCA756000F20BD /* 5AStudentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5AStudentsVC.swift; sourceTree = "<group>"; };
+		9C2D562A23FCA756000F20BD /* TeacherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherVC.swift; sourceTree = "<group>"; };
+		9C2D562E23FCA757000F20BD /* dateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateExtension.swift; sourceTree = "<group>"; };
+		9C2D562F23FCA757000F20BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C7A8B0523F6054C00BBD7D8 /* Minor Mathematicians.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minor Mathematicians.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7A8B0823F6054D00BBD7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7A8B0A23F6054D00BBD7D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C7A8B1423F6054F00BBD7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C7A8B1623F6054F00BBD7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C7A8B1C23F6071D00BBD7D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9C7A8B1E23F6088C00BBD7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Minor Mathematicians OLD/Minor Mathematicians/Assets.xcassets"; sourceTree = "<group>"; };
-		9C7A8B1F23F6088C00BBD7D8 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = "../../Minor Mathematicians OLD/Minor Mathematicians/AppIcon.png"; sourceTree = "<group>"; };
-		9C7A8B2623F6088C00BBD7D8 /* ClassSelectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSelectVC.swift; sourceTree = "<group>"; };
-		9C7A8B2723F6088C00BBD7D8 /* SelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
-		9C7A8B2823F6088C00BBD7D8 /* fiveAdminVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fiveAdminVC.swift; sourceTree = "<group>"; };
-		9C7A8B2A23F6088C00BBD7D8 /* TeacherLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherLoginVC.swift; sourceTree = "<group>"; };
-		9C7A8B2B23F6088C00BBD7D8 /* 5AStudentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5AStudentsVC.swift; sourceTree = "<group>"; };
-		9C7A8B2C23F6088C00BBD7D8 /* TeacherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherVC.swift; sourceTree = "<group>"; };
-		9C7A8B2F23F6088C00BBD7D8 /* dateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateExtension.swift; sourceTree = "<group>"; };
-		9C7A8B4223F609CF00BBD7D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9C7A8B4523F60A2700BBD7D8 /* roundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundBtn.swift; sourceTree = "<group>"; };
-		9C7A8B4623F60A2700BBD7D8 /* roundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundTextField.swift; sourceTree = "<group>"; };
-		9C7A8B4723F60A2700BBD7D8 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
-		9C7A8B4823F60A2700BBD7D8 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
-		9C7A8B4E23F60A4200BBD7D8 /* fiveAPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fiveAPosts.swift; sourceTree = "<group>"; };
+		9C7A8B1C23F6071D00BBD7D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C7A8B4223F609CF00BBD7D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "Minor Mathematicians New/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +85,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9C2D55F423FB65DC000F20BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D55F523FB65DC000F20BD /* roundBtn.swift */,
+				9C2D55F623FB65DC000F20BD /* roundTextField.swift */,
+				9C2D55F723FB65DC000F20BD /* PostTableViewCell.swift */,
+				9C2D55F823FB65DC000F20BD /* PostTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C2D55FD23FB65EE000F20BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D55FE23FB65EF000F20BD /* fiveAPosts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C2D562323FCA756000F20BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D562423FCA756000F20BD /* ClassSelectVC.swift */,
+				9C2D562523FCA756000F20BD /* SelectionVC.swift */,
+				9C2D562623FCA756000F20BD /* fiveAdminVC.swift */,
+				9C2D562723FCA756000F20BD /* fourStudentsVC.swift */,
+				9C2D562823FCA756000F20BD /* TeacherLoginVC.swift */,
+				9C2D562923FCA756000F20BD /* 5AStudentsVC.swift */,
+				9C2D562A23FCA756000F20BD /* TeacherVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C2D562B23FCA757000F20BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D562E23FCA757000F20BD /* dateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9C7A8AFC23F6054C00BBD7D8 = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +139,7 @@
 		9C7A8B0623F6054C00BBD7D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C7A8B0523F6054C00BBD7D8 /* Minor Mathematicians New.app */,
+				9C7A8B0523F6054C00BBD7D8 /* Minor Mathematicians.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,62 +147,19 @@
 		9C7A8B0723F6054C00BBD7D8 /* Minor Mathematicians New */ = {
 			isa = PBXGroup;
 			children = (
-				9C7A8B4D23F60A4200BBD7D8 /* Models */,
-				9C7A8B4423F60A2700BBD7D8 /* Views */,
-				9C7A8B1F23F6088C00BBD7D8 /* AppIcon.png */,
-				9C7A8B1E23F6088C00BBD7D8 /* Assets.xcassets */,
-				9C7A8B2523F6088C00BBD7D8 /* Controllers */,
-				9C7A8B2D23F6088C00BBD7D8 /* Extensions */,
+				9C2D562F23FCA757000F20BD /* Assets.xcassets */,
+				9C2D562323FCA756000F20BD /* Controllers */,
+				9C2D562B23FCA757000F20BD /* Extensions */,
+				9C2D55FD23FB65EE000F20BD /* Models */,
+				9C2D55F423FB65DC000F20BD /* Views */,
 				9C7A8B0823F6054D00BBD7D8 /* AppDelegate.swift */,
 				9C7A8B4223F609CF00BBD7D8 /* Main.storyboard */,
+				9C2D562123FC3256000F20BD /* LaunchScreen.storyboard */,
 				9C7A8B0A23F6054D00BBD7D8 /* SceneDelegate.swift */,
-				9C7A8B1323F6054F00BBD7D8 /* LaunchScreen.storyboard */,
 				9C7A8B1623F6054F00BBD7D8 /* Info.plist */,
 				9C7A8B1C23F6071D00BBD7D8 /* GoogleService-Info.plist */,
 			);
 			path = "Minor Mathematicians New";
-			sourceTree = "<group>";
-		};
-		9C7A8B2523F6088C00BBD7D8 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				9C7A8B2623F6088C00BBD7D8 /* ClassSelectVC.swift */,
-				9C7A8B2723F6088C00BBD7D8 /* SelectionVC.swift */,
-				9C7A8B2823F6088C00BBD7D8 /* fiveAdminVC.swift */,
-				9C7A8B2A23F6088C00BBD7D8 /* TeacherLoginVC.swift */,
-				9C7A8B2B23F6088C00BBD7D8 /* 5AStudentsVC.swift */,
-				9C7A8B2C23F6088C00BBD7D8 /* TeacherVC.swift */,
-			);
-			name = Controllers;
-			path = "../../Minor Mathematicians OLD/Minor Mathematicians/Controllers";
-			sourceTree = "<group>";
-		};
-		9C7A8B2D23F6088C00BBD7D8 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9C7A8B2F23F6088C00BBD7D8 /* dateExtension.swift */,
-			);
-			name = Extensions;
-			path = "../../Minor Mathematicians OLD/Minor Mathematicians/Extensions";
-			sourceTree = "<group>";
-		};
-		9C7A8B4423F60A2700BBD7D8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				9C7A8B4523F60A2700BBD7D8 /* roundBtn.swift */,
-				9C7A8B4623F60A2700BBD7D8 /* roundTextField.swift */,
-				9C7A8B4723F60A2700BBD7D8 /* PostTableViewCell.swift */,
-				9C7A8B4823F60A2700BBD7D8 /* PostTableViewCell.xib */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		9C7A8B4D23F60A4200BBD7D8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				9C7A8B4E23F60A4200BBD7D8 /* fiveAPosts.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +180,7 @@
 			);
 			name = "Minor Mathematicians New";
 			productName = "Minor Mathematicians New";
-			productReference = 9C7A8B0523F6054C00BBD7D8 /* Minor Mathematicians New.app */;
+			productReference = 9C7A8B0523F6054C00BBD7D8 /* Minor Mathematicians.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,11 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C7A8B4323F609CF00BBD7D8 /* Main.storyboard in Resources */,
-				9C7A8B1523F6054F00BBD7D8 /* LaunchScreen.storyboard in Resources */,
 				9C7A8B1D23F6071D00BBD7D8 /* GoogleService-Info.plist in Resources */,
-				9C7A8B3123F6088C00BBD7D8 /* AppIcon.png in Resources */,
-				9C7A8B3023F6088C00BBD7D8 /* Assets.xcassets in Resources */,
-				9C7A8B4C23F60A2700BBD7D8 /* PostTableViewCell.xib in Resources */,
+				9C2D562223FC3256000F20BD /* LaunchScreen.storyboard in Resources */,
+				9C2D563A23FCA757000F20BD /* Assets.xcassets in Resources */,
+				9C2D55FC23FB65DC000F20BD /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,34 +261,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C7A8B4B23F60A2700BBD7D8 /* PostTableViewCell.swift in Sources */,
-				9C7A8B3523F6088C00BBD7D8 /* SelectionVC.swift in Sources */,
-				9C7A8B3923F6088C00BBD7D8 /* 5AStudentsVC.swift in Sources */,
-				9C7A8B3623F6088C00BBD7D8 /* fiveAdminVC.swift in Sources */,
-				9C7A8B4A23F60A2700BBD7D8 /* roundTextField.swift in Sources */,
-				9C7A8B3423F6088C00BBD7D8 /* ClassSelectVC.swift in Sources */,
-				9C7A8B3823F6088C00BBD7D8 /* TeacherLoginVC.swift in Sources */,
-				9C7A8B3A23F6088C00BBD7D8 /* TeacherVC.swift in Sources */,
-				9C7A8B3C23F6088C00BBD7D8 /* dateExtension.swift in Sources */,
+				9C2D55FF23FB65EF000F20BD /* fiveAPosts.swift in Sources */,
+				9C2D563023FCA757000F20BD /* ClassSelectVC.swift in Sources */,
+				9C2D55FA23FB65DC000F20BD /* roundTextField.swift in Sources */,
+				9C2D563623FCA757000F20BD /* TeacherVC.swift in Sources */,
+				9C2D563123FCA757000F20BD /* SelectionVC.swift in Sources */,
+				9C2D55F923FB65DC000F20BD /* roundBtn.swift in Sources */,
+				9C2D563223FCA757000F20BD /* fiveAdminVC.swift in Sources */,
+				9C2D563523FCA757000F20BD /* 5AStudentsVC.swift in Sources */,
+				9C2D563323FCA757000F20BD /* fourStudentsVC.swift in Sources */,
+				9C2D55FB23FB65DC000F20BD /* PostTableViewCell.swift in Sources */,
+				9C2D563423FCA757000F20BD /* TeacherLoginVC.swift in Sources */,
+				9C2D563923FCA757000F20BD /* dateExtension.swift in Sources */,
 				9C7A8B0923F6054D00BBD7D8 /* AppDelegate.swift in Sources */,
-				9C7A8B4923F60A2700BBD7D8 /* roundBtn.swift in Sources */,
 				9C7A8B0B23F6054D00BBD7D8 /* SceneDelegate.swift in Sources */,
-				9C7A8B4F23F60A4200BBD7D8 /* fiveAPosts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9C7A8B1323F6054F00BBD7D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C7A8B1423F6054F00BBD7D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C7A8B1723F6054F00BBD7D8 /* Debug */ = {
@@ -412,7 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0362AE2AE9801720E0F61A6B /* Pods-Minor Mathematicians New.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22U2494ZB5;
 				INFOPLIST_FILE = "Minor Mathematicians New/Info.plist";
@@ -421,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RicardoBomeny.Minor-Mathematicians-New";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Minor Mathematicians";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -431,7 +418,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0546880090C1405EDD171C28 /* Pods-Minor Mathematicians New.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22U2494ZB5;
 				INFOPLIST_FILE = "Minor Mathematicians New/Info.plist";
@@ -440,7 +427,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "RicardoBomeny.Minor-Mathematicians-New";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Minor Mathematicians";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

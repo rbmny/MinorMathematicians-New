@@ -10,7 +10,7 @@
         <!--SelectionVC-->
         <scene sceneID="jyP-Ps-ydr">
             <objects>
-                <viewController storyboardIdentifier="SelectionVC" modalPresentationStyle="fullScreen" id="DSr-Jk-Gwz" customClass="SelectionVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectionVC" modalPresentationStyle="fullScreen" id="DSr-Jk-Gwz" customClass="SelectionVC" customModule="Minor_Mathematicians" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TZ8-EV-scV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,7 +18,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minor Mathematicians" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t98-jV-2TM">
                                 <rect key="frame" x="10" y="115" width="355" height="70"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you a teacher or a student?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frN-Kk-vqs">
@@ -27,10 +27,10 @@
                                     <constraint firstAttribute="width" secondItem="frN-Kk-vqs" secondAttribute="height" multiplier="335:72" id="Krg-AM-h1s"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDK-Fg-IM0" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDK-Fg-IM0" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="80" y="590" width="215" height="48"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -43,7 +43,7 @@
                                     <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CI8-to-bZj" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CI8-to-bZj" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="80" y="447" width="215" height="48"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -57,7 +57,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="CI8-to-bZj" firstAttribute="top" secondItem="frN-Kk-vqs" secondAttribute="bottom" constant="90" id="75u-Hq-UtV"/>
                             <constraint firstItem="frN-Kk-vqs" firstAttribute="leading" secondItem="7xa-vo-fiq" secondAttribute="leading" constant="20" id="8ca-Dl-yBb"/>
@@ -91,7 +91,7 @@
         <!--Teacher LoginVC-->
         <scene sceneID="5EG-nc-Psd">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="d1f-Q6-KT5" customClass="TeacherLoginVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="d1f-Q6-KT5" customClass="TeacherLoginVC" customModule="Minor_Mathematicians" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gcz-4i-9aK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +106,7 @@
                                             <constraint firstAttribute="width" constant="50" id="FaL-zO-IJh"/>
                                             <constraint firstAttribute="height" constant="90" id="QN9-bh-c7Z"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="46"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BJz-67-TL2" userLabel="code2">
@@ -115,7 +115,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" id="NGV-0z-pr6"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="46"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUN-Oz-YzW" userLabel="code3">
@@ -124,7 +124,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" id="hTt-Av-E57"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="46"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r5E-Wp-FNv" userLabel="code4">
@@ -133,36 +133,34 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" id="uwf-xT-gHe"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="46"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                     </textField>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your teacher code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENG-d5-nLQ">
-                                <rect key="frame" x="68.333333333333329" y="291" width="238.33333333333337" height="94"/>
+                                <rect key="frame" x="68.333333333333329" y="271" width="238.33333333333337" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="e99-Mr-h0y"/>
                                     <constraint firstAttribute="width" constant="238.33000000000001" id="h2m-jy-8ls"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="94" id="oed-cC-zh3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLH-jI-Isl">
-                                <rect key="frame" x="26" y="57" width="60" height="60"/>
+                                <rect key="frame" x="26" y="57" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="33l-ib-e31"/>
-                                    <constraint firstAttribute="height" constant="60" id="Ol9-2L-a7W"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="U0X-kg-SsP"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="rxd-Mb-ucu"/>
+                                    <constraint firstAttribute="width" constant="40" id="33l-ib-e31"/>
+                                    <constraint firstAttribute="height" constant="40" id="Ol9-2L-a7W"/>
                                 </constraints>
-                                <state key="normal" image="backBtnDark">
+                                <state key="normal" image="back-button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1g-bZ-rBV" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1g-bZ-rBV" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="141.66666666666666" y="562" width="92" height="70"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -175,18 +173,18 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minor Mathematicians" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3K-wn-XT8">
-                                <rect key="frame" x="31.333333333333343" y="147" width="312.33333333333326" height="41"/>
+                                <rect key="frame" x="31.333333333333343" y="127" width="312.33333333333326" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="41" id="PMV-OF-5fs"/>
                                     <constraint firstAttribute="width" constant="312.32999999999998" id="dgV-lk-C6M"/>
                                     <constraint firstAttribute="height" constant="41" id="h2Y-iY-zHE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ENG-d5-nLQ" firstAttribute="centerX" secondItem="gcz-4i-9aK" secondAttribute="centerX" id="0do-9K-S5H"/>
                             <constraint firstItem="ENG-d5-nLQ" firstAttribute="top" secondItem="e3K-wn-XT8" secondAttribute="bottom" constant="103" id="3UY-dt-PyP"/>
@@ -222,17 +220,17 @@
         <!--TeacherVC-->
         <scene sceneID="zSC-RW-aXu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="kug-gd-Wtn" customClass="TeacherVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="kug-gd-Wtn" customClass="TeacherVC" customModule="Minor_Mathematicians" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JRD-fP-hj5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hQb-ih-wQj">
-                                <rect key="frame" x="40" y="309" width="295" height="455"/>
-                                <color key="backgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="50" y="309" width="275" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0w-oI-avF" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0w-oI-avF" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="87.666666666666686" y="221" width="200" height="48"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" link="YES"/>
@@ -249,17 +247,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUU-dy-5fC">
-                                <rect key="frame" x="26" y="57" width="60" height="60"/>
+                                <rect key="frame" x="26" y="57" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="Fdv-tN-Zy7"/>
-                                    <constraint firstAttribute="height" constant="60" id="oje-V2-ETH"/>
+                                    <constraint firstAttribute="width" constant="40" id="Fdv-tN-Zy7"/>
+                                    <constraint firstAttribute="height" constant="40" id="oje-V2-ETH"/>
                                 </constraints>
-                                <state key="normal" image="backBtnDark">
+                                <state key="normal" image="back-button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-pv-Hew" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-pv-Hew" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="87.666666666666686" y="149" width="200" height="48"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" link="YES"/>
@@ -276,15 +274,15 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hQb-ih-wQj" firstAttribute="centerY" secondItem="JRD-fP-hj5" secondAttribute="centerY" constant="130.5" id="0ck-TO-q7f"/>
                             <constraint firstItem="ZcV-pv-Hew" firstAttribute="top" secondItem="fzq-bj-sfo" secondAttribute="top" constant="105" id="EUN-Di-gjG"/>
                             <constraint firstItem="ZcV-pv-Hew" firstAttribute="centerX" secondItem="m0w-oI-avF" secondAttribute="centerX" id="KLr-Io-vuI"/>
                             <constraint firstItem="hQb-ih-wQj" firstAttribute="top" secondItem="m0w-oI-avF" secondAttribute="bottom" constant="40" id="Mkj-Xo-u5o"/>
                             <constraint firstItem="fzq-bj-sfo" firstAttribute="bottom" secondItem="hQb-ih-wQj" secondAttribute="bottom" constant="14" id="ZMv-xA-S3f"/>
-                            <constraint firstItem="fzq-bj-sfo" firstAttribute="trailing" secondItem="hQb-ih-wQj" secondAttribute="trailing" constant="40" id="kkV-Lr-lFQ"/>
-                            <constraint firstItem="hQb-ih-wQj" firstAttribute="leading" secondItem="fzq-bj-sfo" secondAttribute="leading" constant="40" id="lJQ-IA-bf5"/>
+                            <constraint firstItem="fzq-bj-sfo" firstAttribute="trailing" secondItem="hQb-ih-wQj" secondAttribute="trailing" constant="50" id="kkV-Lr-lFQ"/>
+                            <constraint firstItem="hQb-ih-wQj" firstAttribute="leading" secondItem="fzq-bj-sfo" secondAttribute="leading" constant="50" id="lJQ-IA-bf5"/>
                             <constraint firstItem="bUU-dy-5fC" firstAttribute="top" secondItem="fzq-bj-sfo" secondAttribute="top" constant="13" id="leZ-ja-6xK"/>
                             <constraint firstItem="m0w-oI-avF" firstAttribute="centerX" secondItem="JRD-fP-hj5" secondAttribute="centerX" id="tF6-0g-CZm"/>
                             <constraint firstItem="bUU-dy-5fC" firstAttribute="leading" secondItem="fzq-bj-sfo" secondAttribute="leading" constant="26" id="ycW-lc-02S"/>
@@ -305,7 +303,7 @@
         <!--Five AdminVC-->
         <scene sceneID="Iqd-nd-QoS">
             <objects>
-                <viewController modalPresentationStyle="pageSheet" id="LIx-Bi-Hqx" customClass="fiveAdminVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="pageSheet" id="LIx-Bi-Hqx" customClass="fiveAdminVC" customModule="Minor_Mathematicians" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xVt-ue-x46">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,14 +322,14 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Insert message here" translatesAutoresizingMaskIntoConstraints="NO" id="RUt-lc-aAn">
-                                <rect key="frame" x="40" y="104" width="295" height="405"/>
+                                <rect key="frame" x="50" y="104" width="275" height="405"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="noURL" borderStyle="roundedRect" placeholder="Insert URL here" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CqJ-18-Ztw">
-                                <rect key="frame" x="40" y="569" width="295" height="70"/>
+                                <rect key="frame" x="50" y="569" width="275" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="NuF-bo-FJw"/>
                                 </constraints>
@@ -339,17 +337,17 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.83529411760000005" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kFQ-ZK-Cud" firstAttribute="trailing" secondItem="op4-AK-HGm" secondAttribute="trailing" constant="26" id="5aK-qs-OQa"/>
                             <constraint firstItem="op4-AK-HGm" firstAttribute="top" secondItem="kFQ-ZK-Cud" secondAttribute="top" constant="26" id="6gQ-tq-C1N"/>
                             <constraint firstItem="RUt-lc-aAn" firstAttribute="top" secondItem="op4-AK-HGm" secondAttribute="bottom" constant="18" id="8G5-0q-h5e"/>
                             <constraint firstItem="kFQ-ZK-Cud" firstAttribute="bottom" secondItem="CqJ-18-Ztw" secondAttribute="bottom" constant="85" id="SaA-oe-LHb"/>
-                            <constraint firstItem="kFQ-ZK-Cud" firstAttribute="trailing" secondItem="CqJ-18-Ztw" secondAttribute="trailing" constant="40" id="gGp-Wn-tBy"/>
+                            <constraint firstItem="kFQ-ZK-Cud" firstAttribute="trailing" secondItem="CqJ-18-Ztw" secondAttribute="trailing" constant="50" id="gGp-Wn-tBy"/>
                             <constraint firstItem="CqJ-18-Ztw" firstAttribute="top" secondItem="RUt-lc-aAn" secondAttribute="bottom" constant="60" id="jyE-7g-4h2"/>
-                            <constraint firstItem="kFQ-ZK-Cud" firstAttribute="trailing" secondItem="RUt-lc-aAn" secondAttribute="trailing" constant="40" id="nWh-nX-uYu"/>
-                            <constraint firstItem="CqJ-18-Ztw" firstAttribute="leading" secondItem="kFQ-ZK-Cud" secondAttribute="leading" constant="40" id="rD0-VP-fQK"/>
-                            <constraint firstItem="RUt-lc-aAn" firstAttribute="leading" secondItem="kFQ-ZK-Cud" secondAttribute="leading" constant="40" id="zxf-Sl-VKn"/>
+                            <constraint firstItem="kFQ-ZK-Cud" firstAttribute="trailing" secondItem="RUt-lc-aAn" secondAttribute="trailing" constant="50" id="nWh-nX-uYu"/>
+                            <constraint firstItem="CqJ-18-Ztw" firstAttribute="leading" secondItem="kFQ-ZK-Cud" secondAttribute="leading" constant="50" id="rD0-VP-fQK"/>
+                            <constraint firstItem="RUt-lc-aAn" firstAttribute="leading" secondItem="kFQ-ZK-Cud" secondAttribute="leading" constant="50" id="zxf-Sl-VKn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kFQ-ZK-Cud"/>
                     </view>
@@ -367,19 +365,19 @@
         <!--FiveA StudentsVC-->
         <scene sceneID="wQ2-zF-bWU">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="PLi-E7-RDP" customClass="fiveAStudentsVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="PLi-E7-RDP" customClass="fiveAStudentsVC" customModule="Minor_Mathematicians" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2o-fr-xZW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, 5th Grade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXN-UV-vk3">
-                                <rect key="frame" x="10" y="122" width="355" height="41"/>
+                                <rect key="frame" x="10" y="102" width="355" height="41"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVr-kL-o9P" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
-                                <rect key="frame" x="107" y="202" width="161" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVr-kL-o9P" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                                <rect key="frame" x="107" y="182" width="161" height="48"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" link="YES"/>
                                 </accessibility>
@@ -394,13 +392,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Inx-s0-lbn">
-                                <rect key="frame" x="26" y="57" width="60" height="60"/>
+                                <rect key="frame" x="26" y="57" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="3DI-AN-EPp" userLabel="height = 50"/>
-                                    <constraint firstAttribute="width" constant="60" id="L0n-tI-PQn"/>
+                                    <constraint firstAttribute="height" constant="40" id="3DI-AN-EPp" userLabel="height = 50"/>
+                                    <constraint firstAttribute="width" constant="40" id="L0n-tI-PQn"/>
                                 </constraints>
-                                <state key="normal" image="backBtnDark">
+                                <state key="normal" image="back-button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                 </state>
@@ -409,31 +407,31 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-Ao-Xz1">
-                                <rect key="frame" x="40" y="309" width="295" height="455"/>
-                                <color key="backgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="sectionIndexBackgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="50" y="289" width="275" height="475"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Board" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azQ-u5-O0k">
-                                <rect key="frame" x="108" y="270" width="159" height="31"/>
+                                <rect key="frame" x="108" y="250" width="159" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="UOZ-4d-44R"/>
                                     <constraint firstAttribute="width" constant="159" id="kIe-mg-hfY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="IvN-Ao-Xz1" firstAttribute="leading" secondItem="KR8-y4-CWL" secondAttribute="leading" constant="40" id="1fS-fu-AJK"/>
+                            <constraint firstItem="IvN-Ao-Xz1" firstAttribute="leading" secondItem="KR8-y4-CWL" secondAttribute="leading" constant="50" id="1fS-fu-AJK"/>
                             <constraint firstItem="dXN-UV-vk3" firstAttribute="leading" secondItem="KR8-y4-CWL" secondAttribute="leading" constant="10" id="2Yj-Jj-geJ"/>
                             <constraint firstItem="dXN-UV-vk3" firstAttribute="top" secondItem="Inx-s0-lbn" secondAttribute="bottom" constant="5" id="AfR-eA-gVL"/>
                             <constraint firstItem="azQ-u5-O0k" firstAttribute="top" secondItem="hVr-kL-o9P" secondAttribute="bottom" constant="20" id="J8g-U4-9eu"/>
                             <constraint firstItem="hVr-kL-o9P" firstAttribute="centerX" secondItem="e2o-fr-xZW" secondAttribute="centerX" id="JZb-IH-odu"/>
                             <constraint firstItem="KR8-y4-CWL" firstAttribute="trailing" secondItem="dXN-UV-vk3" secondAttribute="trailing" constant="10" id="K5s-mD-yj5"/>
                             <constraint firstItem="IvN-Ao-Xz1" firstAttribute="centerX" secondItem="e2o-fr-xZW" secondAttribute="centerX" id="KdY-l3-K7B"/>
-                            <constraint firstItem="KR8-y4-CWL" firstAttribute="trailing" secondItem="IvN-Ao-Xz1" secondAttribute="trailing" constant="40" id="Mja-sD-q6F"/>
+                            <constraint firstItem="KR8-y4-CWL" firstAttribute="trailing" secondItem="IvN-Ao-Xz1" secondAttribute="trailing" constant="50" id="Mja-sD-q6F"/>
                             <constraint firstItem="hVr-kL-o9P" firstAttribute="top" secondItem="dXN-UV-vk3" secondAttribute="bottom" constant="39" id="NB6-ED-HwS"/>
                             <constraint firstItem="azQ-u5-O0k" firstAttribute="centerX" secondItem="e2o-fr-xZW" secondAttribute="centerX" id="TZg-LE-oCj"/>
                             <constraint firstItem="Inx-s0-lbn" firstAttribute="leading" secondItem="KR8-y4-CWL" secondAttribute="leading" constant="26" id="dNq-nR-CgQ"/>
@@ -458,28 +456,28 @@
         <!--GradeSelectVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ClassSelectVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" userLabel="GradeSelectVC" customClass="ClassSelectVC" customModule="Minor_Mathematicians_New" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ClassSelectVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" userLabel="GradeSelectVC" customClass="ClassSelectVC" customModule="Minor_Mathematicians" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minor Mathematicians" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QM0-vc-GFI">
-                                <rect key="frame" x="31.333333333333343" y="147" width="312.33333333333326" height="41"/>
+                                <rect key="frame" x="31.333333333333343" y="127" width="312.33333333333326" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="312.32999999999998" id="1rM-e1-2FG"/>
                                     <constraint firstAttribute="height" constant="41" id="lPZ-CV-eZY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select grade level:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9h-bH-gFj">
                                 <rect key="frame" x="92" y="339" width="201" height="30"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpw-98-6hN" customClass="roundBtn" customModule="Minor_Mathematicians_New" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpw-98-6hN" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="100" y="609" width="175" height="47.666666666666629"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
@@ -499,18 +497,18 @@
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LS-Qg-WDB">
-                                <rect key="frame" x="26" y="57" width="60" height="60"/>
+                                <rect key="frame" x="26" y="57" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="i89-VV-rYH"/>
-                                    <constraint firstAttribute="height" constant="60" id="yzZ-Qa-QUm"/>
+                                    <constraint firstAttribute="width" constant="40" id="i89-VV-rYH"/>
+                                    <constraint firstAttribute="height" constant="40" id="yzZ-Qa-QUm"/>
                                 </constraints>
-                                <state key="normal" image="backBtnDark">
+                                <state key="normal" image="back-button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.83529411764705885" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uvL-4X-zlv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Xs-vI-rk0"/>
                             <constraint firstItem="bpw-98-6hN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="6pN-A5-wU0"/>
@@ -543,9 +541,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backBtnDark" width="200" height="200"/>
+        <image name="back-button" width="46" height="46"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="vgz-qU-gPJ"/>
         <segue reference="YJj-5H-jd7"/>
         <segue reference="ohw-fB-aQN"/>
     </inferredMetricsTieBreakers>

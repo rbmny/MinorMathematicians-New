@@ -15,13 +15,10 @@ class fiveAdminVC: UIViewController, UITextFieldDelegate, UITextViewDelegate {
     @IBOutlet weak var postBtn: UIButton!
     @IBOutlet weak var urlTxtView: UITextField!
     
-    var selectedGrade = ""
-
-    
-    
+    var gradeSelected = ""
     @IBAction func handlePostBtn() {
         
-        let postRef = Database.database().reference().child("Fifth Grade").child("Posts").childByAutoId()
+        let postRef = Database.database().reference().child(gradeSelected).child("Posts").childByAutoId()
 
         
         let postObject = [

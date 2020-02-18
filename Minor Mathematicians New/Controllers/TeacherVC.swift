@@ -14,23 +14,77 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var feedTableView: UITableView!
     
+    var gradeSelected = ""
+    var exercisesLink = "noURL"
+    var progressLink = "noURL"
     var posts = [Post]()
     var fetchingMore = false
     var endReached = false
     let leadingScreensForBatching:CGFloat = 3.0
     
+    let ref = Database.database().reference()
+    
+    func getLinkExercises() -> String {
+        var link = ""
+        if gradeSelected == "5" {
+        link = "https://drive.google.com/drive/folders/0AFpZc_dk-uM8Uk9PVA"
+        return link
+        } else if gradeSelected == "4" {
+        link = "link4"
+        return link
+        } else if gradeSelected == "3" {
+        link = "link3"
+        return link
+        }
+        return link
+    }
+    func getLinkProgress() -> String {
+         var link = ""
+         if gradeSelected == "5" {
+         link = "https://docs.google.com/spreadsheets/d/1_WFSsKdMgBYTbr7MRwkVexqbExif6DsfxJ_JP1EgxvQ/view"
+         return link
+         } else if gradeSelected == "4" {
+         link = "link4"
+         return link
+         } else if gradeSelected == "3" {
+         link = "link3"
+         return link
+         }
+         return link
+     }
+    
     @IBAction func onExercisesBtnPressed(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://drive.google.com/drive/folders/0AFpZc_dk-uM8Uk9PVA")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: exercisesLink)! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func studentProgressBtnIsClicked(_ sender: Any) {
-            UIApplication.shared.open(URL(string: "https://docs.google.com/spreadsheets/d/1_WFSsKdMgBYTbr7MRwkVexqbExif6DsfxJ_JP1EgxvQ/view")! as URL, options: [:], completionHandler: nil)
+            UIApplication.shared.open(URL(string: progressLink)! as URL, options: [:], completionHandler: nil)
     }
     
+    func getExercisesLink(){
+        ref.child(gradeSelected).child("ExercisesURL").observe( .value, with: { (snapshot) in
+        let link = snapshot.value as? String
+        if let actualLink = link {
+            self.exercisesLink = actualLink
+        }
+     })
+    }
+    
+    func getProgressLink(){
+        ref.child(gradeSelected).child("ProgressURL").observe( .value, with: { (snapshot) in
+        let link = snapshot.value as? String
+        if let actualLink = link {
+            self.progressLink = actualLink
+        }
+     })
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        getExercisesLink()
+        getProgressLink()
+        
         backBtn.addTarget(self, action: #selector(returnAll), for: .touchUpInside)
         feedTableView.layer.cornerRadius = 19
         feedTableView.dataSource = self
@@ -58,7 +112,7 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         
         func fetchPosts(completion: @escaping(_ posts:[Post]) -> ()) {
-            let postsRef = Database.database().reference().child("Fifth Grade").child("Posts")
+            let postsRef = Database.database().reference().child(gradeSelected).child("Posts")
             let lastPost = self.posts.last
             var queryRef:DatabaseQuery
             if lastPost == nil{

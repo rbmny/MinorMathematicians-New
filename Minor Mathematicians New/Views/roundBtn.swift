@@ -24,8 +24,8 @@ class roundBtn: UIButton {
 
     func customizeView() {
         layer.cornerRadius = 25
-        backgroundColor = UIColorFromRGB(rgbValue: 0x3caea3)
-        setTitleColor(UIColor.black, for: .normal)
+        backgroundColor = UIColorFromRGB(rgbValue: 0x0C96E8)
+        setTitleColor(UIColor.white, for: .normal)
         contentHorizontalAlignment = .center
         contentVerticalAlignment = .center
         contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)

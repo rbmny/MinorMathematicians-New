@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>621528583785-ebaao0qhmiv5fd3pd66c1kgoro6qdpm9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.621528583785-ebaao0qhmiv5fd3pd66c1kgoro6qdpm9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBh6YIYjrIVpnyAgG0oXBpJbei7_K8m8Kc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>621528583785</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>RicardoBomeny.Minor-Mathematicians</string>
+	<key>PROJECT_ID</key>
+	<string>minor-mathematicians</string>
+	<key>STORAGE_BUCKET</key>
+	<string>minor-mathematicians.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:621528583785:ios:cd35985bcb18b34483dcf8</string>
+	<key>DATABASE_URL</key>
+	<string>https://minor-mathematicians.firebaseio.com</string>
+</dict>
+</plist>

@@ -19,11 +19,14 @@ class fiveAStudentsVC: UIViewController, UITableViewDelegate, UITableViewDataSou
     var endReached = false
     let leadingScreensForBatching:CGFloat = 3.0
     var selectedGrade = ""
-    var ref = Database.database().reference()
+    let ref = Database.database().reference()
+    var exercisesLink = "noURL"
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        getExercisesLink()
+        
         welcomeLbl.text = "Welcome, \(selectedGrade) Grade"
         
         feedTableView.layer.cornerRadius = 19
@@ -40,19 +43,13 @@ class fiveAStudentsVC: UIViewController, UITableViewDelegate, UITableViewDataSou
         
     }
 
-    func getLink() -> String {
-        var link = ""
-        if selectedGrade == "5" {
-        link = "https://drive.google.com/drive/folders/0AFpZc_dk-uM8Uk9PVA"
-        return link
-        } else if selectedGrade == "4" {
-        link = "link4"
-        return link
-        } else if selectedGrade == "3" {
-        link = "link3"
-        return link
+    func getExercisesLink(){
+        ref.child(selectedGrade).child("ExercisesURL").observe( .value, with: { (snapshot) in
+        let link = snapshot.value as? String
+        if let actualLink = link {
+            self.exercisesLink = actualLink
         }
-        return link
+     })
     }
 
     
@@ -95,7 +92,7 @@ class fiveAStudentsVC: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     @IBAction func onExercisesBtnPressed(_ sender: Any) {
         
-        UIApplication.shared.open(URL(string: getLink())! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: exercisesLink)! as URL, options: [:], completionHandler: nil)
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
