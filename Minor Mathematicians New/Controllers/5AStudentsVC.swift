@@ -52,7 +52,7 @@ class fiveAStudentsVC: UIViewController, UITableViewDelegate, UITableViewDataSou
      })
     }
 
-    
+   
     func fetchPosts(completion: @escaping(_ posts:[Post]) -> ()) {
         let postsRef = ref.child(selectedGrade).child("Posts")
         let lastPost = self.posts.last
