@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h0r-Ye-bxA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h0r-Ye-bxA">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,14 +37,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="wdh-LI-cr2"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="O1M-TO-YZc" firstAttribute="centerY" secondItem="TAA-NV-zli" secondAttribute="centerY" constant="-54.5" id="2hF-Vd-DsR"/>
                             <constraint firstItem="O1M-TO-YZc" firstAttribute="centerX" secondItem="TAA-NV-zli" secondAttribute="centerX" id="Gfo-GC-Ofp"/>
                             <constraint firstItem="83h-XL-bLb" firstAttribute="centerY" secondItem="TAA-NV-zli" secondAttribute="centerY" constant="361.5" id="W2g-So-Kba"/>
                             <constraint firstItem="83h-XL-bLb" firstAttribute="centerX" secondItem="TAA-NV-zli" secondAttribute="centerX" id="zAz-nC-ZfB"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="wdh-LI-cr2"/>
                     </view>
                     <connections>
                         <segue destination="DSr-Jk-Gwz" kind="show" identifier="MainSegue" id="9lN-ip-nhV"/>
@@ -80,9 +82,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDK-Fg-IM0" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDK-Fg-IM0" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="80" y="487" width="215" height="48"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="1KE-98-nrW"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="3gX-5D-W9a"/>
@@ -95,9 +97,9 @@
                                     <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CI8-to-bZj" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CI8-to-bZj" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="80" y="397" width="215" height="48"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="48" id="ay8-Ba-sqH"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="hFP-7e-pgP"/>
@@ -152,7 +154,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="7xa-vo-fiq"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="frN-Kk-vqs" firstAttribute="centerX" secondItem="TZ8-EV-scV" secondAttribute="centerX" id="0Gf-PP-Gca"/>
                             <constraint firstItem="7xa-vo-fiq" firstAttribute="trailing" secondItem="UU0-WV-OPM" secondAttribute="trailing" constant="96" id="10I-7A-mSg"/>
@@ -175,7 +178,6 @@
                             <constraint firstItem="frN-Kk-vqs" firstAttribute="top" secondItem="t98-jV-2TM" secondAttribute="bottom" constant="132" id="okU-gU-eFH"/>
                             <constraint firstItem="CI8-to-bZj" firstAttribute="top" secondItem="frN-Kk-vqs" secondAttribute="bottom" constant="38" id="sRx-Jh-qAx"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="7xa-vo-fiq"/>
                     </view>
                     <navigationItem key="navigationItem" id="TlE-27-wDY"/>
                     <connections>
@@ -261,9 +263,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1g-bZ-rBV" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1g-bZ-rBV" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="141.66666666666666" y="562" width="92" height="70"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="92" id="C98-fq-Dim"/>
                                     <constraint firstAttribute="height" constant="70" id="i0J-b8-6ar"/>
@@ -285,7 +287,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="Rli-Xt-l8g"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ENG-d5-nLQ" firstAttribute="centerX" secondItem="gcz-4i-9aK" secondAttribute="centerX" id="0do-9K-S5H"/>
                             <constraint firstItem="ENG-d5-nLQ" firstAttribute="top" secondItem="e3K-wn-XT8" secondAttribute="bottom" constant="103" id="3UY-dt-PyP"/>
@@ -299,7 +302,6 @@
                             <constraint firstItem="LLH-jI-Isl" firstAttribute="top" secondItem="Rli-Xt-l8g" secondAttribute="top" constant="13" id="g8D-ga-U7d"/>
                             <constraint firstItem="e3K-wn-XT8" firstAttribute="top" secondItem="LLH-jI-Isl" secondAttribute="bottom" constant="30" id="i3A-7L-eFH"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Rli-Xt-l8g"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lqe-vn-KeV"/>
                     <connections>
@@ -331,7 +333,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" red="0.23529411759999999" green="0.68235294120000001" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0w-oI-avF" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0w-oI-avF" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="87.666666666666686" y="221" width="200" height="48"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" link="YES"/>
@@ -358,7 +360,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-pv-Hew" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-pv-Hew" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="87.666666666666686" y="149" width="200" height="48"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" link="YES"/>
@@ -375,7 +377,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="fzq-bj-sfo"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hQb-ih-wQj" firstAttribute="centerY" secondItem="JRD-fP-hj5" secondAttribute="centerY" constant="130.5" id="0ck-TO-q7f"/>
                             <constraint firstItem="ZcV-pv-Hew" firstAttribute="top" secondItem="fzq-bj-sfo" secondAttribute="top" constant="105" id="EUN-Di-gjG"/>
@@ -388,7 +391,6 @@
                             <constraint firstItem="m0w-oI-avF" firstAttribute="centerX" secondItem="JRD-fP-hj5" secondAttribute="centerX" id="tF6-0g-CZm"/>
                             <constraint firstItem="bUU-dy-5fC" firstAttribute="leading" secondItem="fzq-bj-sfo" secondAttribute="leading" constant="26" id="ycW-lc-02S"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="fzq-bj-sfo"/>
                     </view>
                     <navigationItem key="navigationItem" id="kYW-xR-bMQ"/>
                     <connections>
@@ -424,13 +426,14 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Insert message here" translatesAutoresizingMaskIntoConstraints="NO" id="RUt-lc-aAn">
                                 <rect key="frame" x="50" y="104" width="275" height="405"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="noURL" borderStyle="roundedRect" placeholder="Insert URL here" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CqJ-18-Ztw">
                                 <rect key="frame" x="50" y="569" width="275" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="NuF-bo-FJw"/>
                                 </constraints>
@@ -438,7 +441,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="kFQ-ZK-Cud"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kFQ-ZK-Cud" firstAttribute="trailing" secondItem="op4-AK-HGm" secondAttribute="trailing" constant="26" id="5aK-qs-OQa"/>
                             <constraint firstItem="op4-AK-HGm" firstAttribute="top" secondItem="kFQ-ZK-Cud" secondAttribute="top" constant="26" id="6gQ-tq-C1N"/>
@@ -450,7 +454,6 @@
                             <constraint firstItem="CqJ-18-Ztw" firstAttribute="leading" secondItem="kFQ-ZK-Cud" secondAttribute="leading" constant="50" id="rD0-VP-fQK"/>
                             <constraint firstItem="RUt-lc-aAn" firstAttribute="leading" secondItem="kFQ-ZK-Cud" secondAttribute="leading" constant="50" id="zxf-Sl-VKn"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="kFQ-ZK-Cud"/>
                     </view>
                     <navigationItem key="navigationItem" id="cfk-wn-dmr"/>
                     <connections>
@@ -477,7 +480,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVr-kL-o9P" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVr-kL-o9P" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="107" y="182" width="161" height="48"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" link="YES"/>
@@ -523,7 +526,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="KR8-y4-CWL"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="IvN-Ao-Xz1" firstAttribute="leading" secondItem="KR8-y4-CWL" secondAttribute="leading" constant="50" id="1fS-fu-AJK"/>
                             <constraint firstItem="dXN-UV-vk3" firstAttribute="leading" secondItem="KR8-y4-CWL" secondAttribute="leading" constant="10" id="2Yj-Jj-geJ"/>
@@ -541,7 +545,6 @@
                             <constraint firstItem="dXN-UV-vk3" firstAttribute="centerX" secondItem="e2o-fr-xZW" secondAttribute="centerX" id="xDI-tD-Sdb"/>
                             <constraint firstItem="Inx-s0-lbn" firstAttribute="top" secondItem="e2o-fr-xZW" secondAttribute="topMargin" constant="13" id="zQc-NI-eIp"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="KR8-y4-CWL"/>
                     </view>
                     <navigationItem key="navigationItem" id="jvh-bI-2uV"/>
                     <connections>
@@ -578,9 +581,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpw-98-6hN" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpw-98-6hN" customClass="roundBtn" customModule="Minor_Mathematicians" customModuleProvider="target">
                                 <rect key="frame" x="100" y="609" width="175" height="47.666666666666629"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
                                 <state key="normal" title="Get Started">
                                     <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -609,7 +612,8 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uvL-4X-zlv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Xs-vI-rk0"/>
                             <constraint firstItem="bpw-98-6hN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="6pN-A5-wU0"/>
@@ -625,7 +629,6 @@
                             <constraint firstItem="x9h-bH-gFj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="l3N-85-L9l"/>
                             <constraint firstItem="5LS-Qg-WDB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="13" id="uDC-S1-tN2"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="yoS-UK-UnX"/>
                     <connections>
@@ -641,13 +644,66 @@
             <point key="canvasLocation" x="637.60000000000002" y="-189.16256157635468"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="CI8-to-bZj">
+            <size key="intrinsicContentSize" width="78" height="43"/>
+        </designable>
+        <designable name="ZcV-pv-Hew">
+            <size key="intrinsicContentSize" width="93" height="43"/>
+        </designable>
+        <designable name="aDK-Fg-IM0">
+            <size key="intrinsicContentSize" width="79" height="43"/>
+        </designable>
+        <designable name="bpw-98-6hN">
+            <size key="intrinsicContentSize" width="118" height="43"/>
+        </designable>
+        <designable name="hVr-kL-o9P">
+            <size key="intrinsicContentSize" width="93" height="43"/>
+        </designable>
+        <designable name="k1g-bZ-rBV">
+            <size key="intrinsicContentSize" width="42" height="43"/>
+        </designable>
+        <designable name="m0w-oI-avF">
+            <size key="intrinsicContentSize" width="172" height="43"/>
+        </designable>
+    </designables>
+    <inferredMetricsTieBreakers>
+        <segue reference="qug-6N-Yt2"/>
+        <segue reference="2iS-Md-986"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="TransparentIcon" width="1024" height="1024"/>
         <image name="back-button" width="46" height="46"/>
         <image name="scaled_256" width="256" height="233"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="qug-6N-Yt2"/>
-        <segue reference="9lN-ip-nhV"/>
-    </inferredMetricsTieBreakers>
 </document>
