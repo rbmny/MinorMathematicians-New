@@ -11,6 +11,8 @@ import Firebase
 
 class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    // MARK: - Variables
+    
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var feedTableView: UITableView!
     
@@ -22,7 +24,11 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var endReached = false
     let leadingScreensForBatching:CGFloat = 3.0
     
+    // MARK: - Database
+    
     let ref = Database.database().reference()
+    
+    // MARK: - Deprecated Links
     
     func getLinkExercises() -> String {
         var link = ""
@@ -53,6 +59,8 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
          return link
      }
     
+    // MARK: - Buttons Pressed
+    
     @IBAction func onExercisesBtnPressed(_ sender: Any) {
         UIApplication.shared.open(URL(string: exercisesLink)! as URL, options: [:], completionHandler: nil)
     }
@@ -60,6 +68,8 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBAction func studentProgressBtnIsClicked(_ sender: Any) {
             UIApplication.shared.open(URL(string: progressLink)! as URL, options: [:], completionHandler: nil)
     }
+    
+    // MARK: - Database Links
     
     func getExercisesLink(){
         ref.child(gradeSelected).child("ExercisesURL").observe( .value, with: { (snapshot) in
@@ -78,6 +88,8 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         }
      })
     }
+    
+    // MARK: - Load View
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -103,13 +115,9 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     }
 
 
-
-
-
-            
-    
-
         
+    // MARK: - Fetch Posts
+    
         
         func fetchPosts(completion: @escaping(_ posts:[Post]) -> ()) {
             let postsRef = Database.database().reference().child(gradeSelected).child("Posts")
@@ -142,11 +150,9 @@ class TeacherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                 return completion(tempPosts)
             })
         }
-
-        
-
-        
- 
+         
+    // MARK: - Table View
+    
         func numberOfSections(in tableView: UITableView) -> Int {
             return 1
         }
